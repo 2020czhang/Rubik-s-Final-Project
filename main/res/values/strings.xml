@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RUBI</string>
+
+    <string name="begin">BEGIN</string>
+    <string name="status">WHAT DOES YOUR CUBE LOOK LIKE?</string>
+
+    <color name="white">#ffffff</color>
+
+</resources>
