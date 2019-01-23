@@ -2,8 +2,14 @@
     <string name="app_name">RUBI</string>
 
     <string name="begin">BEGIN</string>
-    <string name="status">WHAT DOES YOUR CUBE LOOK LIKE?</string>
+    <string name="status">WHAT DOES YOUR\nCUBE LOOK LIKE?</string>
+    <string name="scrambled">SCRAMBLED</string>
+    <string name="layer_one">ONE LAYER</string>
+    <string name="layer_two">TWO LAYERS</string>
 
-    <color name="white">#ffffff</color>
+    <string name="one_one">Step 1: Orient the cube so that the middle colors match:</string>
+
+    <color name="white">#000000</color>
+    <color name="black">#000000</color>
 
 </resources>
