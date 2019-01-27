@@ -16,46 +16,82 @@
         android:textColor="@color/white"
         android:textSize="35dp" />
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/middle"
-        android:padding="10dp"/>
-
-    <Button
-        android:id="@+id/layer_two"
-        android:text="@string/layer_two"
+    <GridLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:background="@android:color/transparent"
-        android:padding="5dp"
-        android:fontFamily="@font/montery"
-        android:textSize="20dp"/>
+        android:layout_gravity="center"
+        android:columnCount="3">
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/l_shape"
-        android:padding="10dp"/>
+        <ImageButton
+            android:id="@+id/middle_button"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/middle"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:padding="10dp"/>
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/u"
-        android:padding="10dp"/>
+        <ImageButton
+            android:id="@+id/l_shape"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/l_shape"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:padding="10dp"/>
+
+        <ImageButton
+            android:id="@+id/line"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/line"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:padding="10dp"/>
+
+        <ImageButton
+            android:id="@+id/cross"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/cross"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:padding="10dp"/>
+
+        <ImageButton
+            android:id="@+id/fish"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/fish"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:padding="10dp"/>
+
+        <ImageButton
+            android:id="@+id/protrude"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/protrude"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:padding="10dp"/>
+
+        <ImageButton
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@android:color/transparent"/>
+
+        <ImageButton
+            android:id="@+id/s_shape"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:src="@drawable/s_shape"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:padding="10dp"/>
 
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="100dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/f"
-        android:padding="10dp"/>
-
+    </GridLayout>
 
     <Button
         android:id="@+id/return_navi"

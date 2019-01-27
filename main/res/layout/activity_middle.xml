@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="5dp">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="7"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/middle"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:src="@drawable/straight_arrow"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/l_shape"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:src="@drawable/straight_arrow"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/line"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="50dp"
+            android:src="@drawable/straight_arrow"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cross"/>
+
+
+    </GridLayout>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/montery"
+    android:padding="10dp"
+    android:text="@string/middle_instructions"
+    android:textColor="@color/white"
+    android:textSize="30dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/f"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/r"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/u"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/r_p"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/u_p"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/f_p"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/return_two"
+        android:text="@string/return_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:fontFamily="@font/montery"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/return_navi"
+        android:text="@string/return_navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:fontFamily="@font/montery"
+        android:textSize="20dp"/>
+
+</LinearLayout>
