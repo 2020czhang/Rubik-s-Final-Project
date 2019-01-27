@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">RUBI</string>
+
+    <string name="begin">BEGIN</string>
+    <string name="status">WHAT DOES YOUR\nCUBE LOOK LIKE?</string>
+    <string name="scrambled">SCRAMBLED</string>
+    <string name="layer_one">ONE LAYER</string>
+    <string name="layer_two">TWO LAYERS</string>
+    <string name="cont_two">CONTINUE ONTO THIRD LAYER > > ></string>
+    <string name="return_navi">RETURN TO NAVIGATION > > ></string>
+    <string name="symbols">SYMBOLS GUIDE</string>
+    <string name="t_his">THIS</string>
+    <string name="return_two">RETURN TO TOP VIEW GUIDE > > ></string>
+
+
+    <string name="one_one">Orient the cube so that the middle colors match:</string>
+    <string name="one_two">Flip the cube over, and turn until colors match:</string>
+    <string name="or">OR</string>
+    <string name="left">LEFT</string>
+    <string name="right">RIGHT</string>
+    <string name="one_three">Follow the turns below to place the block in the correct position:</string>
+    <string name="left_dir">U\' L\' U L U F U\' F\'</string>
+    <string name="right_dir">U R U\' R\' U\' F\' U F</string>
+    <string name="repeat">Repeat for all for sides until your cube looks like this:</string>
+
+    <string name="middle_instructions">Follow the turns below (read left to right):</string>
+
+    <string name="symbols_need">SYMBOLS YOU NEED TO KNOW:</string>
+
+    <color name="white">#000000</color>
+    <color name="black">#000000</color>
+
+</resources>
