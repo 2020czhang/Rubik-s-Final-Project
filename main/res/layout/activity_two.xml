@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montery"
+        android:padding="15dp"
+        android:text="@string/status"
+        android:textColor="@color/white"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/middle"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/layer_two"
+        android:text="@string/layer_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:fontFamily="@font/montery"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/l_shape"
+        android:padding="10dp"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/u"
+        android:padding="10dp"/>
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/f"
+        android:padding="10dp"/>
+
+
+    <Button
+        android:id="@+id/return_navi"
+        android:text="@string/return_navi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:fontFamily="@font/montery"
+        android:textSize="20dp"/>
+
+</LinearLayout>
+
+
+
